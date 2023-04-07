@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-header {
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.main-logo {
+  margin-right: 30px;
+}
+
+.navbar {
+  display: flex;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  height: 70px;
+  width: 95%;
+  justify-content: space-between;
+  border-bottom: 1px solid #f2f1eb;
+}
+.navbar .nav-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .nav-right .nav-button {
+  background-color: #058d66;
+  padding: 9px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  color: #fdfbf4;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav-span {
+  color: rgba(0, 0, 0, 0.38);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-span-div {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.nav-span-div:hover {
+  background-color: #f1f9f7;
+  border-bottom: 2px solid green; /* add a green line at the bottom */
+}
+.nav-span-div:hover .nav-span {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.hover-dropdown {
+  display: block;
+}
+
+.dropdown {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0;
+}
+.dropdown .dropdown-items {
+  margin: 0 auto;
+  width: 900px;
+  margin-left: 137px;
+  max-height: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.dropdown .dropdown-items .dropdown-item {
+  color: rgba(0, 0, 0, 0.38);
+  font-size: 20px;
+  padding: 16px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.dropdown .dropdown-items .dropdown-item:hover {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.section-carousel-main {
+  z-index: -1;
+}
+
+.carousel-item {
+  position: relative;
+  height: 32rem;
+  background: #777;
+}
+
+.container-carousel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}/*# sourceMappingURL=style.css.map */

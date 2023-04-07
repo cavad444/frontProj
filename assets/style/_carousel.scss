@@ -1,0 +1,17 @@
+.section-carousel-main{
+    z-index: -1;
+}
+
+.carousel-item{
+    position: relative;
+    height: 32rem;
+    background: #777;
+}
+
+.container-carousel{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom:50px;
+}
