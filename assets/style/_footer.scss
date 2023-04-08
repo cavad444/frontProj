@@ -1,0 +1,102 @@
+.footer{
+    margin-top: 50px;
+}
+.footer-top{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    img{
+        width: 200px;
+    }
+    .footer-top-texts{
+        width: 25%;
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        .footer-top-number{
+            color: rgba(0,0,0,.87);
+            box-sizing: inherit;
+            font: inherit;
+            vertical-align: baseline;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: .25px;
+        }
+        .footer-top-info{
+            box-sizing: inherit;
+            font: inherit;
+            vertical-align: baseline;
+            color: rgba(0,0,0,.6);
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: .4px;
+        }
+    }
+}
+
+.footer-bottom{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    gap: 50px;
+}
+
+.footer-bottom-column{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    .footer-bottom-column-title{
+        list-style: none;
+        color: rgba(0,0,0,.87);
+        list-style: none;
+        box-sizing: inherit;   
+        font: inherit;
+        vertical-align: baseline;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: .1px;
+        font-weight: 600;
+        padding: 16px;
+    }
+    .footer-bottom-column-text{
+        list-style: none;
+        box-sizing: inherit;
+        background-color: transparent;
+        font: inherit;
+        vertical-align: baseline;
+        text-decoration: inherit;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: .25px;
+        display: block;
+        padding: 10px 16px;
+        transition: all .3s cubic-bezier(.23,1,.32,1);
+        color: rgba(0,0,0,.6);
+        cursor: pointer;
+    }
+    .footer-bottom-column-text:hover{
+        color: rgba(0,0,0,.87);
+
+    }
+}
+
+.social-media-footer{
+    display: flex;
+    gap: 20px;
+    padding: 10px 16px;
+    i{
+        font-size: 25px;
+        color:rgba(0,0,0,.6); ;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    i:hover{
+        color: rgba(0,0,0,.87);
+
+    }
+}

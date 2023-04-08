@@ -1,0 +1,60 @@
+.section-application{
+    margin-top: 100px;
+    width: 100%;
+    position: relative;
+}
+
+.section-application-texts{
+    height: 400px;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    .section-application-title{
+        cursor: auto;
+        box-sizing: inherit;
+        font: inherit;
+        vertical-align: baseline;
+        display: inline!important;
+        color: rgba(0,0,0,.87);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: .15px;
+        margin-bottom: 24px;
+    }
+    .section-application-text{
+        cursor: auto;
+        box-sizing: inherit;
+        font: inherit;
+        vertical-align: baseline;
+        color: rgba(0,0,0,.6);
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: .5px;
+        margin-top: 12px;
+        width: 85%;
+    }
+}
+
+.section-application-icons{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    .section-application-store{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        img{
+            height: 45px;
+        }
+    }
+}
+
+.section-application-main-image{
+    height:400px;
+    position: absolute;
+    right: -16.6%;
+    top: 0;
+}
