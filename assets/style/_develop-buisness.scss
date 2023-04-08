@@ -1,0 +1,84 @@
+.section-develop-buisness{
+
+}
+
+.section-develop-buisness-titles{
+display: flex;
+flex-direction: column;
+margin-top:40px ;
+.section-develop-buisness-title{
+    color: rgba(0,0,0,.87);
+    cursor: auto;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-weight: 400!important;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: .25px;
+}
+}
+
+.section-develop-buisness-carts{
+    .section-develop-buisness-cart{
+        box-sizing: inherit;
+        margin: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        color: inherit;
+        text-decoration: inherit;
+        transition: all .3s cubic-bezier(.23,1,.32,1);
+        padding: 24px 24px 16px;
+        border-radius: 8px;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        padding-right: 24px!important;
+        background-image: none!important;
+        margin-bottom: 24px;
+        width: calc(50% - 12px);
+        background-color: #e7f4f9;
+      
+       
+    }
+}
+
+
+.section-develop-buisness-cart-inner{
+    display: flex;
+    flex-direction:column ;
+    width: 50%;
+    .section-develop-buisness-cart-title{
+        color: inherit;
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32px;
+        margin-bottom: 24px;
+
+    }
+    .section-develop-buisness-cart-text{
+
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: .5px;
+        margin-bottom: 56px;
+        color: rgba(0,0,0,.6);
+    }
+    
+}

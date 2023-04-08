@@ -1,11 +1,14 @@
 .section-carousel-main{
     z-index: -1;
+    margin-top: 20px;
 }
 
 .carousel-item{
     position: relative;
     height: 32rem;
     background: #777;
+    background-position: center;
+    background-size:cover;
 }
 
 .container-carousel{
@@ -14,4 +17,97 @@
     left: 0;
     right: 0;
     padding-bottom:50px;
+    width: 50%;
+}
+
+.slide-main-button{
+    margin: 0;  
+    vertical-align: baseline;
+    text-decoration: inherit;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .1px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 144px;
+    height: 56px;
+    padding: 16px;
+    background: #058d66;
+    color: #fff;
+    background-position: 50%;
+}
+.slide-main-title{
+    color: rgba(0,0,0,.87);
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-weight: 400!important;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: unset!important;
+    margin-bottom: 24px;
+}
+.slide-main-span{
+    -webkit-text-size-adjust: 100%;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    color: rgba(0,0,0,.6);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 40px;
+}
+
+.container-carousel-texts{
+    display: flex;
+    flex-direction: column ;
+    position: absolute;
+    top: 250%;
+    left: 30%;
+    
+}
+.container-carousel{
+    position: relative;
+}
+
+
+// .carousel-control-prev,
+// .carousel-control-next{
+   
+// }
+
+.slide-main-carts-image{
+    position: absolute;
+    width:700px;
+    right: 100px;
+}
+
+.slide-main-client-image{
+    position: absolute;
+    width: 900px;
+    right: 10px;
+    bottom: 1px;
+}
+.slide-main-cart-image{
+    position: absolute;
+    width: 600px;
+    right: 10px;
+    bottom: 10px;
+  
 }
