@@ -21,6 +21,7 @@
 }
 
 .slide-main-button{
+    color: #fff;
     margin: 0;  
     vertical-align: baseline;
     text-decoration: inherit;
@@ -32,15 +33,17 @@
     cursor: pointer;
     outline: none;
     border: none;
-    -webkit-box-align: center;
     align-items: center;
     justify-content: center;
     width: 144px;
     height: 56px;
     padding: 16px;
     background: #058d66;
-    color: #fff;
     background-position: 50%;
+    transition: all 0.4s;
+}
+.slide-main-button:hover{
+    background: #2caa84 radial-gradient(circle,transparent 1%,#2caa84 0) 50%/18000%;
 }
 .slide-main-title{
     color: rgba(0,0,0,.87);
@@ -87,11 +90,6 @@
 }
 
 
-// .carousel-control-prev,
-// .carousel-control-next{
-   
-// }
-
 .slide-main-carts-image{
     position: absolute;
     width:700px;
@@ -110,4 +108,14 @@
     right: 10px;
     bottom: 10px;
   
+}
+
+.slide-main-button-link{
+color: #fff;
+text-decoration: none;
+
+}
+.slide-main-button-link:hover{
+    color: #fff;
+    text-decoration: none;
 }
