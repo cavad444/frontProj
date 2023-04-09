@@ -1,0 +1,64 @@
+.bc-section-steps{
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.bc-section-steps-container{
+    display: flex;
+    flex-direction: column;
+}
+.bc-section-steps-title{
+    color: rgba(0,0,0,.87);
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    font-weight: 400!important;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: .25px;
+}
+
+.bc-section-steps-boxes{
+    display: flex;
+    gap: 60px;
+    width: 100%;
+    margin-top: 50px;
+    .bc-section-steps-box{
+        width: 33%;
+        i{
+            color: #058d66;
+            border-radius: 50%;
+            padding: 20px;
+            font-size: 30px;
+            margin-left: -10px;
+            margin-bottom: 30px;
+        }
+        .bc-section-steps-texts{
+            display: flex;
+            flex-direction: column;
+            .bc-section-steps-box-title{
+                color: rgba(0,0,0,.87);
+                overflow-wrap: break-word;
+                box-sizing: inherit;
+                font: inherit;
+                vertical-align: baseline;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: .15px;
+                margin-bottom: 8px;
+            }
+            .bc-section-steps-box-text{
+                overflow-wrap: break-word;
+                box-sizing: inherit;
+                font: inherit;
+                vertical-align: baseline;
+                color: rgba(0,0,0,.6);
+                line-height: 24px;
+            }
+        }
+       
+    }
+}
+
+
+

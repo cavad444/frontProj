@@ -1,0 +1,75 @@
+.bc-section-country{
+    height: 450px;
+}
+.bc-section-country{
+    padding-top: 80px;
+}
+.bc-section-country-texts{
+    display: flex;
+    flex-direction: column;
+    
+}
+.bc-section-country-bolder-title{
+    color: rgba(0,0,0,.87);
+    cursor: auto;
+    letter-spacing: .25px;
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    font-weight: 700!important;
+    font-size: 32px;
+
+}
+.bc-section-country-lighter-title{
+    color: rgba(0,0,0,.87);
+    cursor: auto;
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: .25px;
+    margin-bottom: 24px;
+}
+.bc-section-country-text{
+    color: rgba(0,0,0,.87);
+    cursor: auto;
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: .15px;
+    margin-bottom: 24px;
+}
+
+.bc-section-image{
+    width: 626px;
+    height: 312px;
+}
+
+.bc-section-country-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.bc-section-country-info{
+    cursor: auto;
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    color: rgba(0,0,0,.6);
+    line-height: 24px;
+    letter-spacing: .15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.bc-section-country-cart-icons{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    img{
+        width: 65px;
+    }
+}

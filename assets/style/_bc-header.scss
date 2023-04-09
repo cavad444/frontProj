@@ -1,0 +1,44 @@
+.bc-header-section{
+    background-color: rgb(250,248,241);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.bc-header-section-texts{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  .bc-header-section-title{
+    color: rgba(0,0,0,.87);
+    user-select: none;
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    font-weight: 400!important;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: unset!important;
+    margin-bottom: 24px;
+}
+.bc-header-section-text{
+    user-select: none;
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    color: rgba(0,0,0,.6);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 40px;
+}
+}
+.bc-header-container{
+    position: relative;
+    .bc-header-image{
+        position: absolute;
+        bottom: -60%;
+        width: 650px;
+        right: -10%;
+    }
+}
