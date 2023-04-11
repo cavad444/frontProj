@@ -114,10 +114,6 @@
   color: rgba(0, 0, 0, 0.87);
 }
 
-.hover-dropdown {
-  display: block;
-}
-
 .dropdown-items {
   display: flex;
   position: absolute;
@@ -141,10 +137,6 @@
 }
 .dropdown-items .dropdown-item:hover {
   color: rgba(0, 0, 0, 0.87);
-}
-
-.nav-span-div:hover .dropdown-items {
-  display: flex;
 }
 
 .section-carousel-main {
@@ -2829,7 +2821,7 @@
 }
 
 .a-section-get {
-  margin-top: 80px;
+  padding-top: 80px;
 }
 
 .a-section-get-container {
@@ -2891,4 +2883,141 @@
 .a-section-get-boxes {
   display: flex;
   gap: 30px;
+}
+
+.a-section-advantages {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.a-section-advantages-boxes {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.a-section-advantages-boxes .a-section-advantages-box {
+  width: 47%;
+  display: flex;
+  gap: 30px;
+}
+.a-section-advantages-boxes .a-section-advantages-box .a-section-advantages-title {
+  color: rgba(0, 0, 0, 0.87);
+  cursor: auto;
+  box-sizing: inherit;
+  font: inherit;
+  vertical-align: baseline;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  margin-bottom: 8px;
+}
+.a-section-advantages-boxes .a-section-advantages-box .a-section-advantages-text {
+  cursor: auto;
+  box-sizing: inherit;
+  font: inherit;
+  vertical-align: baseline;
+  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.a-section-advantages-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.a-section-biznes {
+  background-image: url("../images/account/kob-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.a-section-biznes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.a-section-biznes-container .a-section-biznes-boxes {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.a-section-biznes-container .a-section-biznes-boxes .a-section-biznes-box {
+  display: flex;
+  flex-direction: column;
+}
+.a-section-biznes-container .a-section-biznes-boxes .a-section-biznes-box .a-section-biznes-text {
+  cursor: auto;
+  color: #fff;
+  -webkit-box-direction: normal !important;
+  box-sizing: inherit;
+  font: inherit;
+  vertical-align: baseline;
+  margin-bottom: 8px;
+}
+.a-section-biznes-container .a-section-biznes-boxes .a-section-biznes-box .a-section-biznes-title {
+  cursor: auto;
+  color: #fff;
+  -webkit-box-direction: normal !important;
+  box-sizing: inherit;
+  font: inherit;
+  vertical-align: baseline;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.a-section-biznes-container .a-section-biznes-button {
+  box-sizing: inherit;
+  margin: 0;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: inherit;
+  display: inline-block !important;
+  text-align: center !important;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  min-width: 144px;
+  height: 56px;
+  padding: 16px;
+  background: #058d66;
+  color: #fff;
+  background-position: 50%;
+  transition: background 0.7s, color 0.4s;
+  width: 13%;
+}
+
+.a-section-packages-text {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 40px;
+  margin-top: -20px;
+}
+
+.a-section-packages-texts {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */

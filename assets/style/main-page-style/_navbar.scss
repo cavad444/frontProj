@@ -86,12 +86,6 @@ $list-hover-color:rgba(0,0,0,.87);
 }
 
 
-
-.hover-dropdown{
-    display: block;
-}
-
-    
     .dropdown-items{
         display: flex;
         position: absolute;
@@ -119,8 +113,5 @@ $list-hover-color:rgba(0,0,0,.87);
   
 
 
-.nav-span-div:hover .dropdown-items {
-    display: flex;
-  }
-  
+
 //Navbar ends

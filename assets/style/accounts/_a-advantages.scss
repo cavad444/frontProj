@@ -1,0 +1,42 @@
+.a-section-advantages{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.a-section-advantages-boxes{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    .a-section-advantages-box{
+        width: 47%;
+        display: flex;
+        gap: 30px;
+        .a-section-advantages-title{
+            color: rgba(0,0,0,.87);
+            cursor: auto;
+            box-sizing: inherit;
+            font: inherit;
+            vertical-align: baseline;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: .15px;
+            margin-bottom: 8px;
+        }
+        .a-section-advantages-text{
+            cursor: auto;
+            box-sizing: inherit;
+            font: inherit;
+            vertical-align: baseline;
+            color: rgba(0,0,0,.6);
+            letter-spacing: .5px;
+            line-height: 24px;
+            font-weight: 500;
+            font-size: 15px;
+        }
+    }
+}
+.a-section-advantages-texts{
+    display: flex;
+    flex-direction: column;
+}
