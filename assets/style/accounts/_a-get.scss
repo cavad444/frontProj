@@ -1,0 +1,58 @@
+.a-section-get{
+    margin-top: 80px;
+}
+.a-section-get-container{
+    display: flex;
+    flex-direction: column;
+}
+.a-section-get-text{
+    margin-top: 30px;
+    cursor: auto;
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    color: rgba(0,0,0,.6);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 40px;
+    max-width: 858px;
+}
+.a-section-get-box{
+    -webkit-text-size-adjust: 100%;
+    color: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 368px;
+    height: 176px;
+    padding: 24px;
+    box-shadow: 0 2px 7px rgba(0,0,0,.07);
+    transition: all .3s cubic-bezier(.23,1,.32,1);
+    margin-left: 12px;
+}
+.a-section-get-box-title{
+    color: inherit;
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: .15px;
+    margin-bottom: 16px;
+    width: 240px;
+}
+.a-section-get-box-top{
+    display: flex;
+    justify-content: space-between;
+}
+.a-section-get-boxes{
+    display: flex;
+    gap: 30px;
+}

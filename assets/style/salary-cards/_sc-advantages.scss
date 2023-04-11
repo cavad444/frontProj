@@ -1,0 +1,127 @@
+.sc-section-advantages{
+    padding-top: 80px;
+}
+.sc-tabmenu{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+.sc-tabmenu-box{
+
+    color: rgba(0,0,0,.87);
+    box-sizing: inherit;
+    margin: 0;
+    border: 0;
+    margin-left: -20px;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex!important;
+    justify-content: space-between!important;
+    box-shadow: 0 2px 7px rgba(0,0,0,.07);
+    padding: 24px;
+    margin-bottom: 24px;
+    transition: all .3s cubic-bezier(.23,1,.32,1);
+    background-color: #fff;
+    height: 156px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-right: 16px;
+    flex: 0 0 auto;
+    width: 35%;
+    gap: 10px;
+    .sc-tabmenu-box-texts{
+        display: flex;
+        flex-direction: column;
+        .sc-tabmenu-box-title{
+            color: rgba(0,0,0,.87);
+            box-sizing: inherit;
+            font: inherit;
+            vertical-align: baseline;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: .15px;
+            font-weight: 400!important;
+            margin-bottom: 8px;
+        }
+        .sc-tabmenu-box-text{
+            box-sizing: inherit;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            vertical-align: baseline;
+            color: rgba(0,0,0,.6);
+            line-height: 24px;
+        }
+    }
+    i{
+        width: 70px;
+        border-radius: 50%;
+        padding: 20px;
+        font-size: 30px;
+        margin-left: -10px;
+        margin-bottom: 30px;
+    }
+}
+
+.sc-section-advantages-tabmenu{
+    margin-top: 40px;
+    color: rgba(0,0,0,.87);
+    box-sizing: inherit;
+
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    border-radius: 8px;
+    padding: 20px 16px 0;
+}
+
+
+.sc-tabmenu-button.active:after{
+    position: absolute;
+    content: "";
+    background: #058d66;
+    border-radius: 0 0 2px 2px;
+    -webkit-transform: matrix(1,0,0,-1,0,0);
+    transform: matrix(1,0,0,-1,0,0);
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: -1px;
+}
+
+.sc-tabmenu-buttons{
+    color: rgba(0,0,0,.87);
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    border-bottom: 1px solid #e2e3e2;
+    margin-left: -16px;
+    margin-right: -16px;
+    .sc-tabmenu-button{
+        position: relative;
+        box-sizing: inherit;
+        background-color: transparent;
+        margin: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        text-decoration: inherit;
+        margin-right: 32px;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: .15px;
+        font-weight: 500;
+        padding: 0 8px 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        white-space: nowrap;
+        position: relative;
+        color: #343836;
+    }
+    .sc-tabmenu-button:focus{
+        border: none;
+        outline: none;
+    }
+}
