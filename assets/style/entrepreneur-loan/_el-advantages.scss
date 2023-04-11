@@ -1,0 +1,53 @@
+.el-section-advantages{
+    padding-top: 50px;
+}
+.el-section-advantages-title{
+    color: rgba(0,0,0,.87);
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: .25px;
+    margin-bottom: 40px;
+}
+
+.el-section-advantages-boxes{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    .el-section-advantages-box{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        i{
+            width: 70px;
+            border-radius: 50%;
+            padding: 20px;
+            font-size: 30px;
+            margin-left: -10px;
+            margin-bottom: 30px;
+        }
+        .el-section-advantages-box-title{
+            color: rgba(0,0,0,.87);
+            box-sizing: inherit;
+            font: inherit;
+            vertical-align: baseline;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: .15px;
+            margin-bottom: 8px;
+        }
+        .el-section-advantages-box-text{
+            box-sizing: inherit;
+            font: inherit;
+            vertical-align: baseline;
+            color: rgba(0,0,0,.6);
+            letter-spacing: .5px;
+            line-height: 24px;
+            font-weight: 500;
+            font-size: 15px;
+        }
+    }
+}

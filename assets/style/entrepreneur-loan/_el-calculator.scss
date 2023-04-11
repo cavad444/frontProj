@@ -1,0 +1,180 @@
+.el-section-calculator{
+    margin-top: 70px;
+    display: flex;
+    gap: 130px;
+}
+.el-section-calculator-title{
+    color: rgba(0,0,0,.87);
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    font-weight: 400!important;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: .25px;
+    margin-bottom: 32px;
+}
+.el-section-calculator-left{
+    width: 40%;
+}
+
+.range-slider-price-text{
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    width: 100%;
+    color: rgba(0,0,0,.6);
+    font-size: 12px;
+}
+
+.range-slider-price-texts{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0,0,0,.87);
+    box-sizing: inherit;
+    margin: 0;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: #fff;
+    border: 1px solid #d6d7d6;
+    border-radius: 6px;
+    padding: 12px 20px 8px 16px;
+.range-slider-price-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .range-slider-price-input, .range-slider-month-input{
+        box-sizing: inherit;
+        line-height: 1.15;
+        margin: 0;
+        overflow: visible;
+        font-family: Gothic A1;
+        font-size: 15px;
+        font-weight: 500;
+        background: transparent;
+        padding: 4px 0 0;
+        border: none;
+        outline: none;
+        flex-grow: 1;
+    }
+}
+}
+.el-section-calculator-aze-currency{
+    color: rgba(0,0,0,.87);
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    top: 22px;
+
+}
+.range-slider-range-input-month, .range-slider-range-input-price{
+    box-sizing: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    overflow: hidden;
+    background: transparent;
+    height: 26px;
+    position: relative;
+    top: -14px;
+    left: 16px;
+    z-index: 1;
+    width: calc(100% - 36px);
+    outline: none;
+
+}
+
+
+
+.el-min-max-prices{
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+    .el-min-max-price{
+        color: rgba(0,0,0,.6);
+        box-sizing: inherit;
+        font: inherit;
+        vertical-align: baseline;
+        font-size: 12px;
+    }
+}
+
+.range-slider-price{
+    margin-top: 25px;
+}
+
+.el-section-calculator-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    .el-section-calculator-box{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+.el-section-calculator-box-label, .el-section-calculator-info{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    color: rgba(0,0,0,.6);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .25px;
+}
+
+.el-section-calculator-monthly-price, .el-section-calculator-monthly-percentage{
+    color: rgba(0,0,0,.87);
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: .25px;
+}
+
+.el-section-calculator-button{
+    box-sizing: inherit;
+    margin: 0;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: inherit;
+    display: inline-block!important;
+    text-align: center!important;
+    margin-top: 48px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .1px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    min-width: 72px;
+    height: 56px;
+    padding: 16px;
+    background: #058d66;
+    color: #fff;
+    background-position: 50%;
+    transition: background .7s,color .4s;
+    width: 100%;
+}
+.el-section-calculator-button:hover{
+    background-color: #2caa84 radial-gradient(circle,transparent 1%,#2caa84 0) 50%/18000%;
+    color: #fff;
+    text-decoration: none;
+}

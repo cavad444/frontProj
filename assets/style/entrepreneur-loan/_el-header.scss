@@ -1,0 +1,94 @@
+.el-section-header{
+    background-color: #f1f9f7;
+    padding: 20px ;
+}
+.el-section-header-texts{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    .el-section-header-title{
+        color: rgba(0,0,0,.87);
+        box-sizing: inherit;
+        font: inherit;
+        vertical-align: baseline;
+        font-weight: 400!important;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: unset!important;
+        margin-bottom: 24px;
+    }
+    .el-section-header-text{
+        box-sizing: inherit;
+        font: inherit;
+        vertical-align: baseline;
+        color: rgba(0,0,0,.6);
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: .5px;
+        margin-bottom: 40px;
+    }
+    .el-section-header-lists{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .el-section-header-list{
+            display: flex;
+            gap: 10px;
+            i{
+                color: #119d75;
+                font-size: 24px;
+            }
+            span{
+                color: rgba(0,0,0,.87);
+                cursor: auto;
+                box-sizing: inherit;
+                font: inherit;
+                vertical-align: baseline;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: .15px;
+            }
+        }
+    }
+    .el-section-header-link{
+    box-sizing: inherit;
+    margin: 0;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: inherit;
+    display: inline-block!important;
+    text-align: center!important;
+    margin-top: 48px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .1px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    min-width: 72px;
+    height: 56px;
+    padding: 16px;
+    background: #058d66;
+    color: #fff;
+    background-position: 50%;
+    transition: background .7s,color .4s;
+    width: 30%;
+    }
+}
+
+.el-section-header-container{
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 550px;
+        margin-right: -90px;
+    }
+}
+

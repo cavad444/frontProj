@@ -1,0 +1,54 @@
+.sc-section-component{
+    padding-top: 70px;
+    
+    .sc-section-component-box{
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        color: rgba(0,0,0,.87);
+        box-sizing: inherit;
+        margin: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        padding: 24px;
+        margin-right: 24px;
+        box-shadow: 0 2px 7px rgba(0,0,0,.07);
+        transition: all .3s cubic-bezier(.23,1,.32,1);
+        height: 176px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+        background-color: #fff;
+        border-radius: 8px;
+        flex: 0 0 auto;
+        margin-bottom: 24px;
+    }
+}
+
+.sc-section-component-icon{
+    color: rgba(0,0,0,.87);
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 50px;
+    line-height: 32px;
+    font-weight: 500;
+    max-width: 90%;
+}
+.sc-section-component-text{
+    color: rgba(0,0,0,.87);
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    max-width: 90%;
+}
+
+.sc-section-component-container{
+    display: flex;
+    gap: 30px;
+}
