@@ -1,0 +1,64 @@
+.last-text{
+    cursor: auto;
+    color: #fff;
+    -webkit-box-direction: normal!important;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin-bottom: 8px;
+}
+.last-title{
+    cursor: auto;
+    color: #fff;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.p-section-last-boxes{
+    display: flex;
+    gap: 10px;
+}
+
+.p-section-last{
+    background-image: url("../images/payments/kob-bgx.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.p-section-create-text{
+    cursor: auto;
+    list-style: none;
+    box-sizing: inherit;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    color: rgba(0,0,0,.6);
+    margin-bottom: 16px;
+    background-size: 20px;
+    background-position-y: top;
+    padding: 0 28px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: .5px;
+}
+.p-section-create-carts{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: -25px;
+}
+.p-section-create-image{
+    width: 580px;
+}

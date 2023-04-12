@@ -1,0 +1,30 @@
+.p-section-texts{
+    padding-top: 80px;
+}
+.p-section-texts-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.p-section-text{
+    cursor: auto;
+    box-sizing: inherit;
+
+    font: inherit;
+    vertical-align: baseline;
+    color: rgba(0,0,0,.6);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 40px;
+    max-width: 858px;
+}
+
+.p-section-suggest{
+    padding-top: 80px;
+}
+.p-section-suggest-boxes{
+    margin-top: 40px;
+}

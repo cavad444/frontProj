@@ -48,3 +48,74 @@ vertical-align: baseline;}
 // class="fa-solid fa-phone"
 // style="color: #eca400; background-color: #fdf6e7"
 // ></i>
+
+
+
+
+.transparent-link{
+    box-sizing: inherit;
+    font-family: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    width: 100%;
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .1px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-width: 128px;
+    height: 40px;
+    padding: 8px 16px;
+    background: #058d66;
+    background-color: hsla(0,0%,100%,0);
+    color: #099a71;
+    background-position: 50%;
+    transition: background .7s,color .4s;
+}
+.green-button{
+    box-sizing: inherit;
+    margin: 0;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: inherit;
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .1px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 128px;
+    height: 40px;
+    padding: 8px 16px;
+    background: #058d66;
+    color: #fff;
+    background-position: 50%;
+    transition: background .7s,color .4s;
+}
+
+.transparent-link:hover{
+    background: #f1f9f7 radial-gradient(circle,transparent 1%,#f1f9f7 0) 50%/18000%;
+    color: #099a71;
+}
+
+.green-button:hover{
+    color: #fff;
+    text-decoration: none;
+    background: #2caa84 radial-gradient(circle,transparent 1%,#2caa84 0) 50%/18000%;
+}

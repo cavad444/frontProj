@@ -9,7 +9,7 @@ $list-hover-color:rgba(0,0,0,.87);
 }
 
 .section-header{
-    position: relative;
+  //  position: relative;
     
 }
 .container{
@@ -69,6 +69,8 @@ $list-hover-color:rgba(0,0,0,.87);
 .nav-span-div{
     height: 75px;
     display: flex;
+    flex-direction: column;
+    gap: 300px;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -92,20 +94,49 @@ $list-hover-color:rgba(0,0,0,.87);
 }
 
     
+
+.menu-dropdown{
+    color: rgba(0,0,0,.87);
+    list-style: none;
+    letter-spacing: .1px;
+    box-sizing: inherit;
+    font: inherit;
+    vertical-align: baseline;
+    border-top: 1px solid #edefed;
+    background-color: #fff;
+    width: 104.5%;
+    margin-right: 200px;
+    position: absolute;
+    left: -23px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    transition-delay: .05s;
+    visibility: hidden;
+    opacity: 1;
+    z-index: 10;
+    margin-top: 300px;
+}
+
     .dropdown-items{
         display: flex;
-        position: absolute;
-        top: 70px;
-        left: -10px;
         margin: 0 auto;
         width: 900px;
         margin-left: 137px;
         max-height: 240px;
         flex-wrap: wrap;
         flex-direction: column;
-        z-index: 9;
-        display: none;
+        color: rgba(0,0,0,.87);
+        list-style: none;
+        letter-spacing: .1px;
+        box-sizing: inherit;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        border-bottom: 1px solid #edefed;
+        margin: 0 0 0 182px;
+        padding: 0 30px;
         .dropdown-item{
+            width: 50%;
             color:$list-color ;
             font-size: 20px;
             padding: 16px;
@@ -119,8 +150,18 @@ $list-hover-color:rgba(0,0,0,.87);
   
 
 
-.nav-span-div:hover .dropdown-items {
-    display: flex;
+.nav-span-div:hover .menu-dropdown {
+    visibility: visible;
   }
   
+.dropdown-item-link{
+    color:$list-color ;
+    text-decoration: none;
+}
+.dropdown-item-link:hover{
+    text-decoration: none;
+    color:rgba(0,0,0,.87);
+}
+
+
 //Navbar ends

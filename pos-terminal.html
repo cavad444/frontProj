@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e447c45923.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/pos-terminal.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Ekvayrinq</title>
+  </head>
+  <body>
+    <!-- Section navbar starts -->
+    <header>
+      <section class="section-header">
+        <div class="navbar">
+          <div class="nav-left">
+            <a href="http://localhost/tasks/frontProj/"
+              ><img class="main-logo" src="assets/images/main-logo.svg" alt=""
+            /></a>
+
+            <div class="nav-span-div" id="buisness">
+              <span class="nav-span"> Biznes üçün xidmətlər </span>
+              <div class="menu-dropdown">
+                <div class="dropdown-items">
+                  <span class="dropdown-item"
+                    ><a
+                      class="dropdown-item-link"
+                      href="http://localhost/tasks/frontProj/tariff.html"
+                    >
+                      Tarifler</a
+                    ></span
+                  >
+                  <span class="dropdown-item">GRO platforması</span>
+                  <span class="dropdown-item"
+                    ><a
+                      class="dropdown-item-link"
+                      href="http://localhost/tasks/frontProj/accounts.html"
+                    >
+                      Biznes üçün hesab</a
+                    ></span
+                  >
+
+                  <span class="dropdown-item"
+                    ><a
+                      class="dropdown-item-link"
+                      href="http://localhost/tasks/frontProj/accounts.html"
+                    >
+                      Əməkhaqqı layihəsi</a
+                    ></span
+                  >
+
+                  <span class="dropdown-item"
+                    ><a
+                      class="dropdown-item-link"
+                      href="http://localhost/tasks/frontProj/payments.html"
+                    >
+                      Ödənişlər</a
+                    ></span
+                  >
+
+                  <span class="dropdown-item"
+                    ><a
+                      class="dropdown-item-link"
+                      href="http://localhost/tasks/frontProj/buisness-cards.html"
+                    >
+                      Biznes kartlar</a
+                    ></span
+                  >
+                  <span class="dropdown-item"
+                    ><a
+                      class="dropdown-item-link"
+                      href="http://localhost/tasks/frontProj/pos-terminal.html"
+                    >
+                      POS-terminal və E-kassa</a
+                    ></span
+                  >
+
+                  <span class="dropdown-item"
+                    ><a
+                      class="dropdown-item-link"
+                      href="http://localhost/tasks/frontProj/e-commerce.html"
+                    >
+                      Elektron Ticarət</a
+                    ></span
+                  >
+
+                  <span class="dropdown-item">Linklə ödəniş</span>
+                </div>
+              </div>
+            </div>
+            <div class="nav-span-div" id="credit">
+              <span class="nav-span"> Kreditlər </span>
+              <div class="menu-dropdown">
+                <div class="dropdown-items">
+                  <span class="dropdown-item"
+                    ><a
+                      class="dropdown-item-link"
+                      href="http://localhost/tasks/frontProj/onlayn-biznes-kredit.html"
+                    >
+                      Onlayn biznes kreditləri</a
+                    ></span
+                  >
+
+                  <span class="dropdown-item"
+                    ><a
+                      class="dropdown-item-link"
+                      href="http://localhost/tasks/frontProj/buisness-loans.html"
+                    >
+                      Biznes kreditləri</a
+                    ></span
+                  >
+
+                  <span class="dropdown-item"
+                    ><a class="dropdown-item-link" href="#">
+                      Gömrük kartı üzrə kredit xətti</a
+                    ></span
+                  >
+
+                  <span class="dropdown-item"
+                    ><a
+                      class="dropdown-item-link"
+                      href="http://localhost/tasks/frontProj/sif-loans.html"
+                    >
+                      SİF Kreditləri</a
+                    ></span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-span-div" id="factoring">
+              <span class="nav-span"> Faktorinq </span>
+              <div class="menu-dropdown">
+                <div class="dropdown-items">
+                  <span class="dropdown-item"
+                    >İnvoysların maliyyələşdirilməsi</span
+                  >
+                  <span class="dropdown-item"
+                    >Alış sifarişi əsasında maliyyələşmə</span
+                  >
+                  <span class="dropdown-item"
+                    >Təchizat zəncirinin maliyyələşdirilməsi</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-span-div" id="operations">
+              <span class="nav-span"> Sənədli əməliyyatlar </span>
+              <div class="menu-dropdown">
+                <div class="dropdown-items">
+                  <span class="dropdown-item">Ekspress-Tender qarantiyası</span>
+                  <span class="dropdown-item">Bank qarantiyası</span>
+                  <span class="dropdown-item">Akkreditvi</span>
+                  <span class="dropdown-item">İnkasso</span>
+                  <span class="dropdown-item"
+                    >Ticarətin maliyyələşdirilməsi</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-span-div" id="additional-information">
+              <span class="nav-span"> Əlavə xidmətlər </span>
+              <div class="menu-dropdown">
+                <div class="dropdown-items">
+                  <span class="dropdown-item">İnkassiya</span>
+                  <span class="dropdown-item">Depozitlər</span>
+                  <span class="dropdown-item">Bank seyfləri</span>
+                  <span class="dropdown-item">Bulud CRM</span>
+                  <span class="dropdown-item">ÇatBot</span>
+                  <span class="dropdown-item"
+                    >Elektron-ticarət üçün mobil tətbiq</span
+                  >
+                  <span class="dropdown-item">Umico MasterPass</span>
+                  <span class="dropdown-item">PAŞA Biznes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-right">
+            <button class="nav-button">
+              Onlayn Bank <i class="fa-solid fa-angle-down"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- Section navbar ends -->
+    <!-- -------- -->
+    <section class="bc-header-section" style="background-color: #dff2ec">
+      <div class="bc-header-container container">
+        <div class="bc-header-section-texts">
+          <span class="bc-header-section-title">
+            Ödənişləri POS-terminalla nağdsız qəbul edin.
+          </span>
+          <span class="a-section-header-text">
+            Biznes ehtiyaclarınıza uyğun POS-terminal və ya E-kassa seçin.
+          </span>
+          <a href="#" class="sc-section-request-button">Sifariş et</a>
+        </div>
+        <img
+          class="bc-header-image"
+          src="assets/images/pos-terminal/acquiring.png"
+          style="margin-bottom: 85px; width: 700px"
+          alt=""
+        />
+      </div>
+    </section>
+    <!-- ---------  -->
+
+    <!-- Section steps begin -->
+    <section class="bc-section-steps">
+      <div class="bc-section-steps-container container">
+        <span class="bc-section-steps-title"
+          >Nağdsız dövriyyənizi artırın
+        </span>
+        <span class="pt-section-steps-text" style="margin-top: 20px"
+          >POS–terminallar və E-kassalar ticarət və xidmət müəssisələrində
+          ödənişləri nağdsız şəkildə qəbul etməyə imkan yaradır. Cihazları
+          onlayn sifariş edərək obyektinizdə quraşdırın.</span
+        >
+        <div class="bc-section-steps-boxes">
+          <div
+            class="bc-section-steps-box"
+            style="display: flex; flex-direction: row; gap: 20px"
+          >
+            <i
+              class="fa-solid fa-file"
+              style="
+                background-color: #f1f9f7;
+                color: #099a71;
+                width: 70px;
+                height: 70px;
+              "
+            ></i>
+            <div class="bc-section-steps-texts">
+              <span class="bc-section-steps-box-title"
+                >Dövriyyədən asılı olaraq aylıq ödənişsiz
+              </span>
+              <span class="bc-section-steps-box-text"
+                >POS-terminallar və Smart Kassa aparatlarını depozitlə və
+                müvafiq dövriyyə tələbindən asılı olaraq aylıq ödənişsiz əldə
+                edin.</span
+              >
+            </div>
+          </div>
+
+          <div
+            class="bc-section-steps-box line-div"
+            style="display: flex; flex-direction: row; gap: 20px"
+          >
+            <i
+              class="fa-solid fa-truck line-icon"
+              style="
+                background-color: #ffebf0;
+                color: #f14a55;
+                width: 70px;
+                height: 70px;
+              "
+            ></i>
+            <div class="bc-section-steps-texts">
+              <span class="bc-section-steps-box-title">Ünvana çatdırılma </span>
+              <span class="bc-section-steps-box-text"
+                >Banka gəlmədən POS-terminal sifariş edin, şəhər daxili 3, ölkə
+                daxili 7 iş günü ərzində ünvanınıza çatdıraq.
+              </span>
+            </div>
+          </div>
+
+          <div
+            class="bc-section-steps-box"
+            style="display: flex; flex-direction: row; gap: 20px"
+          >
+            <i
+              class="fa-solid fa-wifi"
+              style="
+                background: rgb(253, 246, 231);
+                color: #efb42e;
+                width: 70px;
+                height: 70px;
+              "
+            ></i>
+            <div class="bc-section-steps-texts">
+              <span class="bc-section-steps-box-title">Təmassız ödəniş </span>
+              <span class="bc-section-steps-box-text"
+                >100 AZN-ədək ödənişləri PIN-kod daxil olunmadan qəbul edin.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section steps ends -->
+
+    <!-- Section free starts -->
+    <section
+      class="pt-section-free background-gray"
+      style="padding-top: 80px; padding-bottom: 80px"
+    >
+      <div
+        class="pt-section-free-container container"
+        style="display: flex; gap: 90px"
+      >
+        <span
+          class="section-title"
+          style="display: flex; justify-content: center; align-items: center"
+          >POS-terminalla nağd əməliyyat xərclərindən azad olun, satışlarınızı
+          artırın!</span
+        >
+        <img src="assets/images/pos-terminal/loan-numbers.svg" alt="" />
+      </div>
+    </section>
+    <!-- Section free ends -->
+
+    <!-- Section pos starts -->
+    <section class="pt-section-pos">
+      <div class="pt-section-pos-container container">
+        <span class="section-title">Ehtiyaclarınıza uyğun terminal seçin </span>
+        <div class="pt-section-pos-boxes">
+          <div class="pt-section-pos-box">
+            <div class="pt-section-pos-box-top">
+              <img
+                src="assets/images/pos-terminal/pos.png"
+                class="pt-section-pos-box-image"
+                alt=""
+              />
+            </div>
+            <div class="pt-section-pos-box-bottom">
+              <span class="pt-section-pos-box-title">POS–terminal </span>
+              <div class="pt-section-pos-box-lists">
+                <span class="pt-section-pos-box-text"
+                  ><i class="fa-solid fa-check" style="color: #0d9b73"></i>
+                  Təmassız ödənişlərin qəbulu
+                </span>
+
+                <span class="pt-section-pos-box-text"
+                  ><i class="fa-solid fa-check" style="color: #0d9b73"></i>
+                  Rahat və sürətli əməliyyat sistemi
+                </span>
+
+                <span class="pt-section-pos-box-text"
+                  ><i class="fa-solid fa-check" style="color: #0d9b73"></i>
+                  3G şəbəkə dəstəyi
+                </span>
+              </div>
+              <button class="pt-section-pos-box-button" id="pt">
+                Daha ətraflı
+              </button>
+              <a class="pt-section-pos-box-link" href="#">Sifariş et</a>
+            </div>
+          </div>
+
+          <div class="pt-section-pos-box">
+            <div class="pt-section-pos-box-top">
+              <img
+                src="assets/images/pos-terminal/pos.png"
+                class="pt-section-pos-box-image"
+                alt=""
+              />
+              <span class="pt-section-pos-box-top-text">
+                Dövlət vergi xidməti ilə inteqrasiya</span
+              >
+              <img
+                class="pos-emblem"
+                src="assets/images/pos-terminal/emblem.png"
+                alt=""
+              />
+            </div>
+            <div class="pt-section-pos-box-bottom">
+              <span class="pt-section-pos-box-title"
+                >POS–terminal + E–kassa
+              </span>
+              <div class="pt-section-pos-box-lists">
+                <span class="pt-section-pos-box-text"
+                  ><i class="fa-solid fa-check" style="color: #0d9b73"></i>
+                  E-kassa imkanları
+                </span>
+
+                <span class="pt-section-pos-box-text"
+                  ><i class="fa-solid fa-check" style="color: #0d9b73"></i>
+                  POS–terminal funksiyası
+                </span>
+
+                <span class="pt-section-pos-box-text"
+                  ><i class="fa-solid fa-check" style="color: #0d9b73"></i>
+                  QR kodla çeklərin çapı
+                </span>
+              </div>
+              <button class="pt-section-pos-box-button" id="pt-ek">
+                Daha ətraflı
+              </button>
+              <a class="pt-section-pos-box-link" href="#">Sifariş et</a>
+            </div>
+          </div>
+        </div>
+        <span class="pt-section-pos-main-text"
+          >Diqqət! "İstehlakçıların hüquqlarının müdafiəsi haqqında" Azərbaycan
+          Respublikası Qanununun 17-ci maddəsinə uyğun olaraq Ticarət, məişət və
+          digər növ xidmətlərin göstərilməsi zamanı müştərilərlə hesablaşmaların
+          aparılması üçün müvafiq POS-terminallar quraşdırılmalıdır. Əks halda
+          müvafiq pozuntunu törədən şəxslərə AR Vergi Məcəlləsinin 58.7
+          maddəsinə əsasən 1000 manatdan 6000 manatadək cərimə tətbiq oluna
+          bilər.</span
+        >
+
+        <div class="pt-section-pos-modal">
+          <div class="modal-inner">
+            <div class="modal-content"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section pos ends -->
+
+    <!-- Section x  start-->
+    <section class="el-section-comfort background-gray">
+      <div class="el-section-comfort-container container">
+        <span class="section-title">Xidmətə üç addımda qoşulun </span>
+        <div class="el-section-comfort-boxes">
+          <div class="el-section-comfort-box">
+            <span class="el-section-comfort-number">1</span>
+            <span class="el-section-comfort-text">
+              Onlayn bankda qeydiyyatdan keçin və giriş edin</span
+            >
+          </div>
+
+          <div class="el-section-comfort-box">
+            <span
+              class="el-section-comfort-number"
+              style="color: rgb(226, 67, 83); background-color: #ffebf0"
+              >2</span
+            >
+            <span class="el-section-comfort-text">
+              Vaxtınıza qənaət edərək onlayn hesab açın</span
+            >
+          </div>
+
+          <div class="el-section-comfort-box">
+            <span
+              class="el-section-comfort-number"
+              style="color: #eca400; background-color: #fdf6e7"
+              >3</span
+            >
+            <span class="el-section-comfort-text">
+              Hesabınıza deposit məbləği yerləşdirərək, sadə formanı
+              doldurun</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section x end -->
+
+    <!-- Section buisness solution starts -->
+    <section
+      class="section-buisness-solution background-gray"
+      style="padding-bottom: 60px"
+    >
+      <div class="container">
+        <div class="section-buisness-solution-titles">
+          <span class="section-buisness-solution-title"
+            >Lazım olan sənədlər
+          </span>
+        </div>
+        <div class="section-buisness-solution-carts">
+          <div class="section-buisness-solution-cart">
+            <span class="section-buisness-solution-cart-title">Asan imza </span>
+            <span class="pt-section-x-text"
+              >Kimliyi təsdiq edən, onlayn xidmətlərdən istifadə etmək və
+              rəqəmsal imza ilə sənədləri təsdiq etmək üçün istifadə olunan
+              mobil identifikasiya.</span
+            >
+            <a href="#" class="section-buisness-solution-cart-link"
+              >Necə əldə etməli <i class="fa-solid fa-right-long"></i
+            ></a>
+          </div>
+
+          <div class="section-buisness-solution-cart">
+            <span class="section-buisness-solution-cart-title"
+              >Şəhadətnamə dublikat
+            </span>
+            <span class="pt-section-x-text"
+              >Dövlət qeydiyyatı vergi orqanları tərəfindən aparılan hüquqi
+              şəxslər və fərdi sahibkarlara Bankda hesab açmaq üçün təqdim
+              edilən sənəd.</span
+            >
+            <a href="#" class="section-buisness-solution-cart-link"
+              >Necə əldə etməli <i class="fa-solid fa-right-long"></i
+            ></a>
+          </div>
+
+          <div class="section-buisness-solution-cart">
+            <span class="section-buisness-solution-cart-title"
+              >Vergi uçot kodu
+            </span>
+            <span class="pt-section-x-text"
+              >Vergi ödəyicisinin təsərrüfat subyektinin uçot məlumatlarının
+              vergi ödəyicisinin reyestrinə daxil edildikdə ona təqdim olunan 15
+              rəqəmli kod.</span
+            >
+            <a href="#" class="section-buisness-solution-cart-link"
+              >Necə əldə etməli <i class="fa-solid fa-right-long"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section buisness solution starts -->
+
+    <!-- Section footer starts -->
+    <footer>
+      <section class="footer container">
+        <div class="footer-top">
+          <img src="assets/images/main-logo.svg" alt="" />
+          <div class="footer-top-texts">
+            <span class="footer-top-number">*9123 / (+99 412) 496 50 00</span>
+            <span class="footer-top-info">Fərdi müştərilər üçün</span>
+          </div>
+          <div class="footer-top-texts">
+            <span class="footer-top-number">*9123 / (+99 412) 496 50 00</span>
+            <span class="footer-top-info">Fərdi müştərilər üçün</span>
+          </div>
+          <div class="footer-top-texts">
+            <span class="footer-top-number">*9123 / (+99 412) 496 50 00</span>
+            <span class="footer-top-info">Fərdi müştərilər üçün</span>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <ul class="footer-bottom-column">
+            <li class="footer-bottom-column-title">Korporativ Bankçılıq</li>
+            <li class="footer-bottom-column-text">
+              Hesablaşma-kassa xidmətləri
+            </li>
+            <li class="footer-bottom-column-text">Depozitlər</li>
+            <li class="footer-bottom-column-text">İnkassasiya</li>
+            <li class="footer-bottom-column-text">Bank kartları</li>
+            <li class="footer-bottom-column-text">Bank seyfləri</li>
+            <li class="footer-bottom-column-text">Korporativ kreditləşmə</li>
+            <li class="footer-bottom-column-text">Faktorinq</li>
+            <li class="footer-bottom-column-text">Sənədli əməliyyatlar</li>
+            <li class="footer-bottom-column-text">
+              Ekvayrinq (POS) xidmətləri
+            </li>
+            <li class="footer-bottom-column-text">Distant bank xidmətləri</li>
+            <li class="footer-bottom-column-text">Qeyri-maliyyə xidmətləri</li>
+            <li class="footer-bottom-column-text">Ümumi şərtlər toplusu</li>
+          </ul>
+
+          <ul class="footer-bottom-column">
+            <li class="footer-bottom-column-title">Kiçik və Orta Biznes</li>
+            <li class="footer-bottom-column-text">Biznes üçün hesab</li>
+            <li class="footer-bottom-column-text">Əməkhaqqı layihəsi</li>
+            <li class="footer-bottom-column-text">Elektron ticarət</li>
+            <li class="footer-bottom-column-text">POS–terminal və E–kassa</li>
+            <li class="footer-bottom-column-text">Bank seyfləri</li>
+            <li class="footer-bottom-column-text">Korporativ kreditləşmə</li>
+            <li class="footer-bottom-column-text">Faktorinq</li>
+            <li class="footer-bottom-column-text">Sənədli əməliyyatlar</li>
+            <li class="footer-bottom-column-text">
+              Ekvayrinq (POS) xidmətləri
+            </li>
+            <li class="footer-bottom-column-text">Distant bank xidmətləri</li>
+            <li class="footer-bottom-column-text">Qeyri-maliyyə xidmətləri</li>
+            <li class="footer-bottom-column-text">Linklə ödəniş</li>
+          </ul>
+
+          <ul class="footer-bottom-column">
+            <li class="footer-bottom-column-title">Fərdi Bankçılıq</li>
+            <li class="footer-bottom-column-text">Private Banking</li>
+            <li class="footer-bottom-column-text">
+              Hesablaşma-kassa xidmətləri
+            </li>
+            <li class="footer-bottom-column-text">Depozitlər</li>
+            <li class="footer-bottom-column-text">Bank seyfləri</li>
+            <li class="footer-bottom-column-text">Bank seyfləri</li>
+            <li class="footer-bottom-column-text">Korporativ kreditləşmə</li>
+            <li class="footer-bottom-column-text">Əlaqə mərkəzi</li>
+            <li class="footer-bottom-column-text">Sənədli əməliyyatlar</li>
+            <li class="footer-bottom-column-text">
+              Ekvayrinq (POS) xidmətləri
+            </li>
+            <li class="footer-bottom-column-text">Ümumi şərtlər toplusu</li>
+          </ul>
+
+          <ul class="footer-bottom-column">
+            <li class="footer-bottom-column-title">Digər</li>
+            <li class="footer-bottom-column-text">İnvestisiya bankçılığı</li>
+            <li class="footer-bottom-column-text">Maliyyə institutları</li>
+            <li class="footer-bottom-column-text">İnkassaHaqqımızdasiya</li>
+            <li class="footer-bottom-column-text">Xəbərlər</li>
+            <li class="footer-bottom-column-text">Əməliyyat ölkələri</li>
+            <li class="footer-bottom-column-text">Korporativ kreditləşmə</li>
+            <li class="footer-bottom-column-text">Faktorinq</li>
+            <li class="footer-bottom-column-text">Sənədli əməliyyatlar</li>
+            <li class="social-media-footer">
+              <a href="https://www.facebook.com/"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://www.twitter.com/"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.linkedin.com/"
+                ><i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://www.youtube.com/">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a href="https://www.instagram.com/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <!-- Section footer ends -->
+  </body>
+</html>
