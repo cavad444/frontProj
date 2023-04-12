@@ -1,0 +1,56 @@
+.qarantiya-tab-box{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 5px;
+    .qarantiya-tab-box-title{
+        cursor: auto;
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        margin-bottom: 8px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: .15px;
+        color: rgba(0,0,0,.87);
+    }
+    .qarantiya-tab-box-text{
+        cursor: auto;
+        box-sizing: inherit;
+        font: inherit;
+        vertical-align: baseline;
+        color: rgba(0,0,0,.6);
+        letter-spacing: .5px;
+        line-height: 24px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+}
+
+.qarantiya-section-why{
+    padding-top: 80px;
+}
+.qarantiya-section-why-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .qarantiya-section-info{
+        cursor: auto;
+        box-sizing: inherit;
+        font: inherit;
+        vertical-align: baseline;
+        margin-top: 16px;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: .15px;
+        font-weight: 500;
+        color: rgba(0,0,0,.6);
+        width: 65%;
+    }
+}
+
