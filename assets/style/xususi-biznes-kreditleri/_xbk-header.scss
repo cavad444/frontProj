@@ -1,0 +1,25 @@
+.xbk-header-section{
+    background-image: url("../images/xbc/special-business-loan.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.xbc-section-header-info{
+    cursor: auto;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    color: rgba(0,0,0,.6);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .25px;
+}
+
+.xbc-section-header-lists{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}

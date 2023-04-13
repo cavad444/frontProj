@@ -1,0 +1,62 @@
+.xbc-section-why{
+    padding-top: 80px;
+}
+.xbc-section-why-container{
+    display: flex;
+    img{
+        color: rgba(0,0,0,.87);
+        cursor: auto;
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        width: 307px;
+        height: 231px;
+        object-fit: contain;
+        margin-right: 10%;
+    }
+    .xbc-section-why-boxes{
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        gap: 60px;
+        .xbc-section-why-box{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+}
+.xbc-section-why-box-title{
+    color: rgba(0,0,0,.87);
+    cursor: auto;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 32px;
+}
+.xbc-section-why-box-text{
+    cursor: auto;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    color: rgba(0,0,0,.6);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: .5px;
+}
+
+.xbc-section-how{
+    padding-top: 80px;
+}
