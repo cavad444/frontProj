@@ -102,6 +102,11 @@
   color: #099a71;
 }
 
+.transparent-link:focus {
+  overflow: hidden;
+  border: none;
+}
+
 .green-button:hover {
   color: #fff;
   text-decoration: none;
@@ -3996,4 +4001,126 @@
 
 .qarantiya-form-div {
   margin-top: 30px;
+}
+
+.sl-section-header {
+  background-image: url("../images/sif-loans/slider.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sl-section-kinds {
+  margin-top: 80px;
+}
+
+.sl-box {
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: inherit;
+  display: flex;
+  flex-direction: column;
+  font: inherit;
+  vertical-align: baseline;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  background-color: #fff;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: contain;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  background-image: none;
+}
+
+.sl-box-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sl-box-bottom-titles {
+  display: flex;
+  gap: 10px;
+}
+
+.sl-box-bottom-titles-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sl-box-bottom-title {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.sl-box-bottom-info {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.sl-box-bottom {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.sl-box-bottom-box {
+  margin-top: 30px;
+}
+
+.sl-box-bottom-box-title {
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 24px !important;
+}
+
+.sl-box-bottom-box-border {
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  vertical-align: baseline;
+  border: 1px solid #e2e3e2;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: flex;
+  padding: 15px;
+}
+
+.sl-box-bottom-box-lists {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
 }/*# sourceMappingURL=style.css.map */

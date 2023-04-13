@@ -114,6 +114,11 @@ vertical-align: baseline;}
     color: #099a71;
 }
 
+.transparent-link:focus{
+    overflow: hidden;
+    border: none;
+}
+
 .green-button:hover{
     color: #fff;
     text-decoration: none;
